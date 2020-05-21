@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    min-height: 100vh;
+    
+}
+
+body { font-size: 16px; }
+input, select { font-size: 100%; }
+
+
+
+.container {
+    width: 500px;
+    height: 1500px;
+    
+    
+    background-color: #fff;
+    max-width: 100%;
+}
+
+.header{
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    
+    
+}
+
+.img{
+    position: absolute;
+
+    
+    margin-left: 105px;
+}
+
+
+.header_image{
+    text-align: center;
+}
+#form_control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+#form_control input{
+    margin-top: 20px;
+    
+}
+
+
+
+.legend_1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.input_name{
+    margin-left: 30px;
+    width: 220px;
+    height: 28px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    outline: none;
+}
+
+.input_age{
+    margin-left: 40px;
+    width: 220px;
+    height: 28px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    outline: none;
+}
+
+.input_date{
+    margin-left: 32px;
+    width: 220px;
+    height: 28px;
+    text-align: center;
+    padding: 5px;
+
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    outline: none;
+}
+.input_male, .input_female, .input_others{
+    margin-left: 18px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.address_label{
+    position: absolute;
+    margin-top: 20px;
+}
+
+#address{
+    margin-top: 20px;
+    margin-left: 72px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    outline: none;
+    padding: 5px;
+
+}
+
+.input_pincode{
+    margin-left: 14px;
+    width: 220px;
+    height: 28px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    outline: none;
+}
+
+.input_state{
+    margin-left: 33px;
+    width: 220px;
+    height: 28px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    outline: none;
+}
+
+.idproof_div{
+    margin-top: 20px;
+}
+
+#idproof{
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    outline: none;
+    padding: 5px;
+
+
+}
+
+.legend_2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.input_yes, .input_no{
+    margin-left: 18px;
+    padding: 5px;
+
+}
+
+.description_label{
+    position: absolute;
+    margin-top: 30px;
+
+}
+
+#description{
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    outline: none;
+    padding: 5px;
+
+}
+
+
+.other_health_div{
+    margin-top: 20px;
+    
+}
+
+.input_health_problems{
+    margin-left: 30px;
+}
+
+.input_healthprob1{
+    width: 320px;
+    height: 28px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    outline: none;
+    padding: 5px;
+
+    
+}
+
+.input_healthprob2{
+    width: 320px;
+    height: 28px;
+    margin-left: 6px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    outline: none;
+    padding: 5px;
+
+}
+
+.input_healthprob3{
+    width: 320px;
+    height: 28px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    outline: none;
+    padding: 5px;
+
+    
+}
+
+.input_healthprob4{
+    width: 320px;
+    height: 28px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    outline: none;
+    padding: 5px;
+
+    
+}
+
+.travel_div{
+    margin-top: 20px;
+}
+
+.btn_div{
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+
+.btn{
+   
+    height: 30px;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    outline: none;
+    padding: 5px;
+
+    cursor: pointer;
+}
+
+
+#form_control label{
+        font-size: 18px;
+}
+
+
+.btn:hover{
+    background-color: rgb(17, 224, 138);
+    border: 2px solid rgb(17, 224, 138);
+
+}
+
+
+
+
+
